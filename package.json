@@ -1,0 +1,38 @@
+{
+  "name": "bullseye-admin",
+  "version": "1.0.0",
+  "description": "Bullseye's admin",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "lint": "eslint src"
+  },
+  "main": "index.js",
+  "repository": "git@github.com:EridLabs/bullseye-admin.git",
+  "author": "Erid Labs <webmaster@eridlabs.com>",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^6.7.2",
+    "babel-loader": "^6.2.10",
+    "classnames": "^2.2.5",
+    "css-loader": "^0.26.1",
+    "flow-bin": "^0.38.0",
+    "postcss-loader": "^1.2.2",
+    "postcss-smart-import": "^0.6.7",
+    "precss": "^1.4.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-hot-loader": "next",
+    "react-router-dom": "next",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "webpack": "beta",
+    "webpack-dev-server": "beta"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0"
+  }
+}
